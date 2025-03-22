@@ -18,7 +18,7 @@ async function downloadVideo() {
             method: 'GET',
             headers: {
                 'X-RapidAPI-Host': 'tiktok-video-no-watermark2.p.rapidapi.com',
-                'X-RapidAPI-Key': 'cf1d62f86emsh3cf093a504a6296p1bfbfbjsn69c5bc8038a3'
+                'X-RapidAPI-Key': '5fd405953amshb6903c834ce518bp1c8c53jsnd90402e2341a'
             }
         });
 
