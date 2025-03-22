@@ -9,7 +9,6 @@ async function downloadVideo() {
     }
 
     try {
-        // API mới dành cho tải video Tiktok không logo (cần thay thế bằng API chính xác nếu có)
         const apiUrl = 'https://tiktok-video-no-watermark2.p.rapidapi.com/';
         const params = new URLSearchParams({
             url: videoUrl,
@@ -19,8 +18,8 @@ async function downloadVideo() {
         const response = await fetch(`${apiUrl}?${params.toString()}`, {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Host': 'tiktok-video-no-watermark2.p.rapidapi.com';
-                'X-RapidAPI-Key': '5fd405953amshb6903c834ce518bp1c8c53jsnd90402e2341a';
+                'X-RapidAPI-Host': 'tiktok-video-no-watermark2.p.rapidapi.com',
+                'X-RapidAPI-Key': '5fd405953amshb6903c834ce518bp1c8c53jsnd90402e2341a'
             }
         });
 
