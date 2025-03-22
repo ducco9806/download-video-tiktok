@@ -8,7 +8,7 @@ async function downloadVideo() {
     }
 
     try {
-        const apiUrl = 'https://tiktok-video-no-watermark2.p.rapidapi.com/';
+        const apiUrl = 'https://tiktok-video-no-watermark2.p.rapidapi.com/comment/reply?video_id=7093219391759764782&comment_id=7093219663211053829&c';
         const params = new URLSearchParams({
             url: videoUrl,
             hd: '1'
