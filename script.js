@@ -23,6 +23,8 @@ async function downloadVideo() {
         });
 
         const data = await response.json();
+        console.log(data);
+        
         if (data && data.data && data.data.play) {
             resultDiv.innerHTML = `
                 <p>Video đã tải xuống thành công!</p>
