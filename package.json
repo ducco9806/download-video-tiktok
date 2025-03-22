@@ -1,0 +1,12 @@
+{
+  "name": "download-video-tiktok",
+  "version": "1.0.0",
+  "description": "Trang tải video tiktok không có logo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

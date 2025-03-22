@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+imput {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
